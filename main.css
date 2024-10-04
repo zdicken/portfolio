@@ -1,8 +1,38 @@
 body {
+    margin: 0;
+    color:white;
     background-color: rgb(30, 29, 29);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.header {
-    
+header {
+    background-color:darkslategrey;
+    font-size:24px;
+    padding:5px;
+    text-align:center;
+}
+
+.project {
+    display:flex;
+    margin:1em 10% 1em 10%;
+    padding: 1em 10px 1em 10px;
+    background-color: rgb(30, 29, 60);
+}
+
+.column {
+    float:left;
+    width:50%;
+}
+
+a {
+    color:darkcyan;
+    text-decoration: none;
+}
+
+footer {
+    font-size:12px;
+    padding:5px;
+    margin:20px 0 0 0;
+    background-color:darkslategrey;
+    text-align:center;
 }
