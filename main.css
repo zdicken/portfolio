@@ -38,10 +38,19 @@ a {
     margin:1em 10% 1em 10%;
 }
 
+.about img {
+    padding-top:2.5em;
+}
+
 footer {
-    font-size:12px;
+    font-size:16px;
     padding:5px;
     margin:20px 0 0 0;
     background-color:darkslategrey;
+    text-align:center;
+}
+
+h2, h4 {
+    margin-top:0;
     text-align:center;
 }
