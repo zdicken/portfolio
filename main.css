@@ -14,9 +14,6 @@ header {
 
 .project {
     display:flex;
-    margin:1em 10% 1em 10%;
-    padding: 1em 50px 1em 50px;
-    background-color: rgb(30, 29, 60);
 }
 
 .project p {
@@ -26,6 +23,12 @@ header {
 
 .column {
     float:left;
+}
+
+.game {
+    padding: 1em 50px 1em 50px;
+    margin:1em 10% 1em 10%;
+    background-color: rgb(30, 29, 60);
 }
 
 a {
@@ -39,7 +42,7 @@ a {
 }
 
 .about img {
-    padding-top:2.5em;
+    width:100%;
 }
 
 footer {
@@ -52,5 +55,6 @@ footer {
 
 h2, h4 {
     margin-top:0;
+    margin-bottom:0.5em;
     text-align:center;
 }
